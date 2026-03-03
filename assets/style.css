@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.logo {
+    width: 280px;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background: url(./img/bodybg.jpg);
+}
+
+main {
+    display: flex;
+ 
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    color: aliceblue;
+}
+.container-izq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container-der {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.load-container {
+    display: flex;
+    /* flex-direction: column; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 80%;
+}
+.inputGasto-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.inputNombre-container {
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+#valorGasto {
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+    height: 20px;
+    width: 180px;
+}
+#nombreLista {
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+    height: 20px;
+    width: 180px;
+}
+.btnAddNombre {
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: rgb(21, 21, 87);
+    color: aliceblue;
+}
+.btnCerrarLote {
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: rgb(21, 21, 87);
+    color: aliceblue;
+}
+.btnCerrarLote:hover {
+     background-color: burlywood;
+    color: aliceblue;
+}
+.btnAddNombre:hover {
+    background-color: burlywood;
+    color: aliceblue;
+}
+.btnDeleteAll {
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: rgb(21, 21, 87);
+    color: aliceblue;
+}
+.btnDeleteAll:hover {
+    background-color: burlywood;
+    color: aliceblue;
+}
+.gasto-item {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem;
+}
+.gasto-monto {
+    color: grey;
+}
+.btnAdd {
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 0.5rem;
+}
+.btnAdd:hover {
+    background-color: burlywood;
+    color: aliceblue;
+}
+.gastos-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 350px;
+    background-color: aliceblue;
+    color: black;
+}
+.listas-gastos {
+    width: 200px;
+}
+.lista-lotes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 30rem;
+    border: 1px solid white;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.total {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.historial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.btnDeleteHistorial {
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 10px;
+}
+
+.btnDeleteHistorial:hover {
+    background-color: burlywood;
+    color: aliceblue;
+}

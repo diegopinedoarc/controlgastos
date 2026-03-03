@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Control de gastos</title>
+    <script defer src="./js/main.js"></script>
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./assets/img/logo.png" alt="logo" class="logo" />
+    </header>
+    <main>
+      <div class="container-izq">
+        <section class="load-container">
+          <div class="inputGasto-container">
+            <h2>Ingresa tu gasto</h2>
+            <input type="text" placeholder="Ingresa el monto" id="valorGasto" />
+          </div>
+
+          <button class="btnAdd">Cargar</button>
+        </section>
+        <section class="gastos-container">
+          <div class="inputNombre-container">
+            <input type="text" id="nombreLista" placeholder="Nombre del lote" />
+            <button class="btnAddNombre">Agregar nombre</button>
+          </div>
+          <h3 class="nombre-lote-actual"></h3>
+          <ul class="lista-gastos"></ul>
+          <div class="total">
+            <h3>Total de gastos</h3>
+            <h3 class="total-gastos"></h3>
+            <button class="btnCerrarLote">Cerrar y Guardar Lote</button>
+          </div>
+
+          <button class="btnDeleteAll">Eliminar todos</button>
+        </section>
+      </div>
+      <div class="container-der">
+        <section class="historial">
+          <ul class="lista-lotes"></ul>
+          <button class="btnDeleteHistorial">Borrar historial</button>
+        </section>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
